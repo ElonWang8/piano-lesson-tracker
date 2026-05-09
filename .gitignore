@@ -1,0 +1,21 @@
+# Xcode
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+DerivedData/
+Build/
+*.xcarchive
+
+# CocoaPods
+Pods/
+
+# SwiftPM
+.build/
+.swiftpm/
+
+# macOS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.swp

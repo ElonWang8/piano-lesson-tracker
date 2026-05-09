@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		925030F98BBE4DD5A4A7AD21 /* 课程记录App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F42BE57F5934F25B62A2749 /* 课程记录App.swift */; };
+		2734CD3B530E4998B3A78D18 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDF726070234970A6887E34 /* ContentView.swift */; };
+		FF7DC2EAD14E4C5FA9EFF64B /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE3257CC5164674AB75B75D /* Enums.swift */; };
+		95DDC0EF91E44CAEB99E6757 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F03D8583D4A0A9298EC88 /* Student.swift */; };
+		78C05C4F18974919B114E239 /* Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C19C1069F5400EB2D0AD2A /* Lesson.swift */; };
+		A9B3CBDA6CEB451CBAC2A906 /* Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6743D7CD20B4C09B4CF953C /* Payment.swift */; };
+		6466297C2E1F4A6EACC381BE /* ScheduleSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA083E1BE1E441F9A77065D /* ScheduleSlot.swift */; };
+		596E581E31EF41AEAC420C51 /* ScheduleException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21203280B7384AE5A66D03BD /* ScheduleException.swift */; };
+		565FC6FD22B3462C968E8910 /* GroupClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3520940359924608B3503D87 /* GroupClass.swift */; };
+		C8882EBFE4C644E0B6BFEDE0 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8470E89621994C41897EDF10 /* Date+Extensions.swift */; };
+		903CE32E0F6B4B25A40CBC9D /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5564C9FEAA014DE1951804BD /* NotificationManager.swift */; };
+		9CB186D5619C47A28C2247C8 /* CSVExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21449146CEE34B81BD796395 /* CSVExporter.swift */; };
+		88D99E5005BF4422A3E25629 /* PDFExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF7773F6CA442EE96D1A7DA /* PDFExporter.swift */; };
+		D213BE7294734D0E94956A83 /* ScheduleRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D0663CDBAD42BA948E33B6 /* ScheduleRenderer.swift */; };
+		720A4B3BCE71459C989507D1 /* ClassScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448E36C9641848BCAFAC99AD /* ClassScheduleView.swift */; };
+		74FAB1DFF472406980D4EB7F /* ScheduleSlotCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0DB5B2A6A54340BEC32438 /* ScheduleSlotCell.swift */; };
+		925DDAD7A8224E2BB4059879 /* ScheduleFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8F93558B7044CB82DADF14 /* ScheduleFormView.swift */; };
+		17AB617F1DD046D59ACF2459 /* ScheduleExceptionFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20888176B8E341C5BEC8A93C /* ScheduleExceptionFormView.swift */; };
+		CD1D113395E043F4AC480E20 /* GroupCheckInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B2B88864084356809AC41B /* GroupCheckInView.swift */; };
+		F2C08EF0D1B8417E9115D0B5 /* GroupClassListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AC0BDDD5D643A482F6E77A /* GroupClassListView.swift */; };
+		A1B6E3F374574A9AB11A581A /* GroupClassDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA364EA8A70E470992B0525A /* GroupClassDetailView.swift */; };
+		9DACF2AB450B4CDB88F38F2E /* GroupClassFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EEA919F60C4FC2B74E25B6 /* GroupClassFormView.swift */; };
+		373737316DE54C15B888D85B /* GroupClassRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A663BCF458804B03B078A279 /* GroupClassRowView.swift */; };
+		367E1920DD9846749A4F0367 /* StudentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC02869B88B14ECBAEACA51C /* StudentListView.swift */; };
+		E9D8B4B4221B46F0B4AB8C7D /* StudentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99B67D3E13D45728BA8BA66 /* StudentDetailView.swift */; };
+		72F5133D88D94F4FACEABAE2 /* StudentFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9694390F26444C7AD72C1B2 /* StudentFormView.swift */; };
+		4490D767F3334BA58C4FB462 /* StudentRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A342F5291634CB99F780E6C /* StudentRowView.swift */; };
+		1926D953E18F438EA4915A72 /* LessonContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20D267DB61648A8920FBADE /* LessonContainerView.swift */; };
+		81A0341F91884856B5CD3D23 /* LessonCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FF05F3D1004B9D81904805 /* LessonCalendarView.swift */; };
+		6FFDC5665F3F4BF3A8A0D20E /* LessonListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA074BCF172C418088C33542 /* LessonListView.swift */; };
+		929C0B9F548C44F2A51A2879 /* LessonFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C7A5B8BDD541FEB3261D14 /* LessonFormView.swift */; };
+		FF13CFA3632B45C8B38F1E21 /* LessonDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAD7BDB39654421856DF6AB /* LessonDetailView.swift */; };
+		EB999F11DACC49E2A7587588 /* LessonRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640C9D9472B44E208BC72A1A /* LessonRowView.swift */; };
+		06E49A63C0114C859289B195 /* PaymentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB501FD0B96D4D9EA403F880 /* PaymentListView.swift */; };
+		7692C1BF9A554675997D0AA0 /* PaymentFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349B1E83DDC54A539A951DE5 /* PaymentFormView.swift */; };
+		1DF22D46BEFF477FA1C26942 /* PaymentRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516A1EF2D1A94E9D9B0BB5AC /* PaymentRowView.swift */; };
+		BED7BA6A7DBF4CE0888FDC5A /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46FCE98C0CC4DD38EEAB938 /* StatisticsView.swift */; };
+		1DE4F4F62ED0477999E2255F /* MonthlyLessonChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F2194C2AFB484B8DBCD244 /* MonthlyLessonChart.swift */; };
+		79E57834D9654963BAA61DCE /* MonthlyIncomeChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75266D1AE974738A7A9DD98 /* MonthlyIncomeChart.swift */; };
+		E195D2D0303F4656B5AFFE69 /* StudentDistributionChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAE364D2F1B415BAAF06B1E /* StudentDistributionChart.swift */; };
+		6A73CD5D1916433D9E6442EB /* ExportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A482CC87E2F746E8B2218CB7 /* ExportView.swift */; };
+		89349A9C2F8B41CDAA24A60E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DAD38EF44644DCBA1DDFF8 /* SettingsView.swift */; };
+		C7B76C99E5BC41B2B9047714 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E097052FCA6C4693B682D0B6 /* EmptyStateView.swift */; };
+		45850671DC8C4932B4BA9BA3 /* StatusBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A03D0600FB4462961D747E /* StatusBadgeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F42BE57F5934F25B62A2749 /* 课程记录App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "课程记录App.swift"; sourceTree = "<group>"; };
+		ADDF726070234970A6887E34 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView.swift"; sourceTree = "<group>"; };
+		2AE3257CC5164674AB75B75D /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Enums.swift"; sourceTree = "<group>"; };
+		BA8F03D8583D4A0A9298EC88 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student.swift"; sourceTree = "<group>"; };
+		40C19C1069F5400EB2D0AD2A /* Lesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lesson.swift"; sourceTree = "<group>"; };
+		F6743D7CD20B4C09B4CF953C /* Payment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Payment.swift"; sourceTree = "<group>"; };
+		5AA083E1BE1E441F9A77065D /* ScheduleSlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScheduleSlot.swift"; sourceTree = "<group>"; };
+		21203280B7384AE5A66D03BD /* ScheduleException.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScheduleException.swift"; sourceTree = "<group>"; };
+		3520940359924608B3503D87 /* GroupClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GroupClass.swift"; sourceTree = "<group>"; };
+		8470E89621994C41897EDF10 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		5564C9FEAA014DE1951804BD /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NotificationManager.swift"; sourceTree = "<group>"; };
+		21449146CEE34B81BD796395 /* CSVExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CSVExporter.swift"; sourceTree = "<group>"; };
+		FEF7773F6CA442EE96D1A7DA /* PDFExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFExporter.swift"; sourceTree = "<group>"; };
+		C3D0663CDBAD42BA948E33B6 /* ScheduleRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScheduleRenderer.swift"; sourceTree = "<group>"; };
+		448E36C9641848BCAFAC99AD /* ClassScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ClassScheduleView.swift"; sourceTree = "<group>"; };
+		0A0DB5B2A6A54340BEC32438 /* ScheduleSlotCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScheduleSlotCell.swift"; sourceTree = "<group>"; };
+		6D8F93558B7044CB82DADF14 /* ScheduleFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScheduleFormView.swift"; sourceTree = "<group>"; };
+		20888176B8E341C5BEC8A93C /* ScheduleExceptionFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScheduleExceptionFormView.swift"; sourceTree = "<group>"; };
+		D5B2B88864084356809AC41B /* GroupCheckInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GroupCheckInView.swift"; sourceTree = "<group>"; };
+		08AC0BDDD5D643A482F6E77A /* GroupClassListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GroupClassListView.swift"; sourceTree = "<group>"; };
+		DA364EA8A70E470992B0525A /* GroupClassDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GroupClassDetailView.swift"; sourceTree = "<group>"; };
+		C4EEA919F60C4FC2B74E25B6 /* GroupClassFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GroupClassFormView.swift"; sourceTree = "<group>"; };
+		A663BCF458804B03B078A279 /* GroupClassRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GroupClassRowView.swift"; sourceTree = "<group>"; };
+		AC02869B88B14ECBAEACA51C /* StudentListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StudentListView.swift"; sourceTree = "<group>"; };
+		D99B67D3E13D45728BA8BA66 /* StudentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StudentDetailView.swift"; sourceTree = "<group>"; };
+		E9694390F26444C7AD72C1B2 /* StudentFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StudentFormView.swift"; sourceTree = "<group>"; };
+		3A342F5291634CB99F780E6C /* StudentRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StudentRowView.swift"; sourceTree = "<group>"; };
+		F20D267DB61648A8920FBADE /* LessonContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LessonContainerView.swift"; sourceTree = "<group>"; };
+		47FF05F3D1004B9D81904805 /* LessonCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LessonCalendarView.swift"; sourceTree = "<group>"; };
+		FA074BCF172C418088C33542 /* LessonListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LessonListView.swift"; sourceTree = "<group>"; };
+		77C7A5B8BDD541FEB3261D14 /* LessonFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LessonFormView.swift"; sourceTree = "<group>"; };
+		EAAD7BDB39654421856DF6AB /* LessonDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LessonDetailView.swift"; sourceTree = "<group>"; };
+		640C9D9472B44E208BC72A1A /* LessonRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LessonRowView.swift"; sourceTree = "<group>"; };
+		CB501FD0B96D4D9EA403F880 /* PaymentListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PaymentListView.swift"; sourceTree = "<group>"; };
+		349B1E83DDC54A539A951DE5 /* PaymentFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PaymentFormView.swift"; sourceTree = "<group>"; };
+		516A1EF2D1A94E9D9B0BB5AC /* PaymentRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PaymentRowView.swift"; sourceTree = "<group>"; };
+		D46FCE98C0CC4DD38EEAB938 /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StatisticsView.swift"; sourceTree = "<group>"; };
+		40F2194C2AFB484B8DBCD244 /* MonthlyLessonChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MonthlyLessonChart.swift"; sourceTree = "<group>"; };
+		B75266D1AE974738A7A9DD98 /* MonthlyIncomeChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MonthlyIncomeChart.swift"; sourceTree = "<group>"; };
+		2FAE364D2F1B415BAAF06B1E /* StudentDistributionChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StudentDistributionChart.swift"; sourceTree = "<group>"; };
+		A482CC87E2F746E8B2218CB7 /* ExportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ExportView.swift"; sourceTree = "<group>"; };
+		B1DAD38EF44644DCBA1DDFF8 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsView.swift"; sourceTree = "<group>"; };
+		E097052FCA6C4693B682D0B6 /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EmptyStateView.swift"; sourceTree = "<group>"; };
+		A4A03D0600FB4462961D747E /* StatusBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StatusBadgeView.swift"; sourceTree = "<group>"; };
+		93A314D6A16140FD9C0F1173 /* 课程记录.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "课程记录.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F6525F9D3AF4979AC510D0F /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC38A0A1581740A2B89E75A3 /* 课程记录 */ = {
+			isa = PBXGroup;
+			children = (
+				1F42BE57F5934F25B62A2749 /* 课程记录App.swift */,
+				ADDF726070234970A6887E34 /* ContentView.swift */,
+				9E7F7B0AB0A54D108C1416A7 /* Models */,
+				E5C7B3163D0A4CA4BAB90153 /* Extensions */,
+				10B03468E30B45338580EC5B /* Services */,
+				0ECD86D9D75345718BF922F3 /* Views */,
+			);
+			path = "课程记录";
+			sourceTree = "<group>";
+		};
+		9E7F7B0AB0A54D108C1416A7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2AE3257CC5164674AB75B75D /* Enums.swift */,
+				BA8F03D8583D4A0A9298EC88 /* Student.swift */,
+				40C19C1069F5400EB2D0AD2A /* Lesson.swift */,
+				F6743D7CD20B4C09B4CF953C /* Payment.swift */,
+				5AA083E1BE1E441F9A77065D /* ScheduleSlot.swift */,
+				21203280B7384AE5A66D03BD /* ScheduleException.swift */,
+				3520940359924608B3503D87 /* GroupClass.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E5C7B3163D0A4CA4BAB90153 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8470E89621994C41897EDF10 /* Date+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		10B03468E30B45338580EC5B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5564C9FEAA014DE1951804BD /* NotificationManager.swift */,
+				21449146CEE34B81BD796395 /* CSVExporter.swift */,
+				FEF7773F6CA442EE96D1A7DA /* PDFExporter.swift */,
+				C3D0663CDBAD42BA948E33B6 /* ScheduleRenderer.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7B093350B6C2403C9D3D30BB /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				448E36C9641848BCAFAC99AD /* ClassScheduleView.swift */,
+				0A0DB5B2A6A54340BEC32438 /* ScheduleSlotCell.swift */,
+				6D8F93558B7044CB82DADF14 /* ScheduleFormView.swift */,
+				20888176B8E341C5BEC8A93C /* ScheduleExceptionFormView.swift */,
+				D5B2B88864084356809AC41B /* GroupCheckInView.swift */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+		D4F5682D407449E98D7C8EC9 /* GroupClass */ = {
+			isa = PBXGroup;
+			children = (
+				08AC0BDDD5D643A482F6E77A /* GroupClassListView.swift */,
+				DA364EA8A70E470992B0525A /* GroupClassDetailView.swift */,
+				C4EEA919F60C4FC2B74E25B6 /* GroupClassFormView.swift */,
+				A663BCF458804B03B078A279 /* GroupClassRowView.swift */,
+			);
+			path = GroupClass;
+			sourceTree = "<group>";
+		};
+		77331B62686E4B3CB9FE8B22 /* Students */ = {
+			isa = PBXGroup;
+			children = (
+				AC02869B88B14ECBAEACA51C /* StudentListView.swift */,
+				D99B67D3E13D45728BA8BA66 /* StudentDetailView.swift */,
+				E9694390F26444C7AD72C1B2 /* StudentFormView.swift */,
+				3A342F5291634CB99F780E6C /* StudentRowView.swift */,
+			);
+			path = Students;
+			sourceTree = "<group>";
+		};
+		D3B399CA69F548DFB55D0540 /* Lessons */ = {
+			isa = PBXGroup;
+			children = (
+				F20D267DB61648A8920FBADE /* LessonContainerView.swift */,
+				47FF05F3D1004B9D81904805 /* LessonCalendarView.swift */,
+				FA074BCF172C418088C33542 /* LessonListView.swift */,
+				77C7A5B8BDD541FEB3261D14 /* LessonFormView.swift */,
+				EAAD7BDB39654421856DF6AB /* LessonDetailView.swift */,
+				640C9D9472B44E208BC72A1A /* LessonRowView.swift */,
+			);
+			path = Lessons;
+			sourceTree = "<group>";
+		};
+		05FEB09A84284C719432708B /* Payments */ = {
+			isa = PBXGroup;
+			children = (
+				CB501FD0B96D4D9EA403F880 /* PaymentListView.swift */,
+				349B1E83DDC54A539A951DE5 /* PaymentFormView.swift */,
+				516A1EF2D1A94E9D9B0BB5AC /* PaymentRowView.swift */,
+			);
+			path = Payments;
+			sourceTree = "<group>";
+		};
+		930D5FC6D0DF423BAB9D8E24 /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				D46FCE98C0CC4DD38EEAB938 /* StatisticsView.swift */,
+				40F2194C2AFB484B8DBCD244 /* MonthlyLessonChart.swift */,
+				B75266D1AE974738A7A9DD98 /* MonthlyIncomeChart.swift */,
+				2FAE364D2F1B415BAAF06B1E /* StudentDistributionChart.swift */,
+			);
+			path = Statistics;
+			sourceTree = "<group>";
+		};
+		2109DB621A7E41AEB1B00F04 /* Export */ = {
+			isa = PBXGroup;
+			children = (
+				A482CC87E2F746E8B2218CB7 /* ExportView.swift */,
+			);
+			path = Export;
+			sourceTree = "<group>";
+		};
+		122D522DEBB04DD1AFD05CE3 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				B1DAD38EF44644DCBA1DDFF8 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		BDAD87A809FB4123B7CEA645 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E097052FCA6C4693B682D0B6 /* EmptyStateView.swift */,
+				A4A03D0600FB4462961D747E /* StatusBadgeView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		0ECD86D9D75345718BF922F3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7B093350B6C2403C9D3D30BB /* Schedule */,
+				D4F5682D407449E98D7C8EC9 /* GroupClass */,
+				77331B62686E4B3CB9FE8B22 /* Students */,
+				D3B399CA69F548DFB55D0540 /* Lessons */,
+				05FEB09A84284C719432708B /* Payments */,
+				930D5FC6D0DF423BAB9D8E24 /* Statistics */,
+				2109DB621A7E41AEB1B00F04 /* Export */,
+				122D522DEBB04DD1AFD05CE3 /* Settings */,
+				BDAD87A809FB4123B7CEA645 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		28ED55F797A2471E96B62F85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93A314D6A16140FD9C0F1173 /* 课程记录.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46C6E11670554EBB84824DE6 = {
+			isa = PBXGroup;
+			children = (
+				FC38A0A1581740A2B89E75A3 /* 课程记录 */,
+				28ED55F797A2471E96B62F85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5003C59523FA48FCBB48A6F7 /* 课程记录 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE1791BE6914473C9B0C6108;
+			buildPhases = (
+				F54FE1693EC4477D94D4A823 /* Sources */,
+				6F6525F9D3AF4979AC510D0F /* Frameworks */,
+				7CD0F575BA0541E8BB4AE8EB /* Resources */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = "课程记录";
+			productName = "课程记录";
+			productReference = 93A314D6A16140FD9C0F1173;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30FE4BB68C4D439A8E56DB27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					5003C59523FA48FCBB48A6F7 = {CreatedOnToolsVersion = 16.4;};
+				};
+			};
+			buildConfigurationList = 2436380E3F784106A5238522;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = "zh-Hans";
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base, "zh-Hans");
+			mainGroup = 46C6E11670554EBB84824DE6;
+			productRefGroup = 28ED55F797A2471E96B62F85;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (5003C59523FA48FCBB48A6F7);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CD0F575BA0541E8BB4AE8EB /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F54FE1693EC4477D94D4A823 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925030F98BBE4DD5A4A7AD21 /* 课程记录App.swift in Sources */,
+				2734CD3B530E4998B3A78D18 /* ContentView.swift in Sources */,
+				FF7DC2EAD14E4C5FA9EFF64B /* Enums.swift in Sources */,
+				95DDC0EF91E44CAEB99E6757 /* Student.swift in Sources */,
+				78C05C4F18974919B114E239 /* Lesson.swift in Sources */,
+				A9B3CBDA6CEB451CBAC2A906 /* Payment.swift in Sources */,
+				6466297C2E1F4A6EACC381BE /* ScheduleSlot.swift in Sources */,
+				596E581E31EF41AEAC420C51 /* ScheduleException.swift in Sources */,
+				565FC6FD22B3462C968E8910 /* GroupClass.swift in Sources */,
+				C8882EBFE4C644E0B6BFEDE0 /* Date+Extensions.swift in Sources */,
+				903CE32E0F6B4B25A40CBC9D /* NotificationManager.swift in Sources */,
+				9CB186D5619C47A28C2247C8 /* CSVExporter.swift in Sources */,
+				88D99E5005BF4422A3E25629 /* PDFExporter.swift in Sources */,
+				D213BE7294734D0E94956A83 /* ScheduleRenderer.swift in Sources */,
+				720A4B3BCE71459C989507D1 /* ClassScheduleView.swift in Sources */,
+				74FAB1DFF472406980D4EB7F /* ScheduleSlotCell.swift in Sources */,
+				925DDAD7A8224E2BB4059879 /* ScheduleFormView.swift in Sources */,
+				17AB617F1DD046D59ACF2459 /* ScheduleExceptionFormView.swift in Sources */,
+				CD1D113395E043F4AC480E20 /* GroupCheckInView.swift in Sources */,
+				F2C08EF0D1B8417E9115D0B5 /* GroupClassListView.swift in Sources */,
+				A1B6E3F374574A9AB11A581A /* GroupClassDetailView.swift in Sources */,
+				9DACF2AB450B4CDB88F38F2E /* GroupClassFormView.swift in Sources */,
+				373737316DE54C15B888D85B /* GroupClassRowView.swift in Sources */,
+				367E1920DD9846749A4F0367 /* StudentListView.swift in Sources */,
+				E9D8B4B4221B46F0B4AB8C7D /* StudentDetailView.swift in Sources */,
+				72F5133D88D94F4FACEABAE2 /* StudentFormView.swift in Sources */,
+				4490D767F3334BA58C4FB462 /* StudentRowView.swift in Sources */,
+				1926D953E18F438EA4915A72 /* LessonContainerView.swift in Sources */,
+				81A0341F91884856B5CD3D23 /* LessonCalendarView.swift in Sources */,
+				6FFDC5665F3F4BF3A8A0D20E /* LessonListView.swift in Sources */,
+				929C0B9F548C44F2A51A2879 /* LessonFormView.swift in Sources */,
+				FF13CFA3632B45C8B38F1E21 /* LessonDetailView.swift in Sources */,
+				EB999F11DACC49E2A7587588 /* LessonRowView.swift in Sources */,
+				06E49A63C0114C859289B195 /* PaymentListView.swift in Sources */,
+				7692C1BF9A554675997D0AA0 /* PaymentFormView.swift in Sources */,
+				1DF22D46BEFF477FA1C26942 /* PaymentRowView.swift in Sources */,
+				BED7BA6A7DBF4CE0888FDC5A /* StatisticsView.swift in Sources */,
+				1DE4F4F62ED0477999E2255F /* MonthlyLessonChart.swift in Sources */,
+				79E57834D9654963BAA61DCE /* MonthlyIncomeChart.swift in Sources */,
+				E195D2D0303F4656B5AFFE69 /* StudentDistributionChart.swift in Sources */,
+				6A73CD5D1916433D9E6442EB /* ExportView.swift in Sources */,
+				89349A9C2F8B41CDAA24A60E /* SettingsView.swift in Sources */,
+				C7B76C99E5BC41B2B9047714 /* EmptyStateView.swift in Sources */,
+				45850671DC8C4932B4BA9BA3 /* StatusBadgeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CFA5E8325BF14B9BAE43D908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1 $(inherited)";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3CF18D2AFE546B8B0C3C7DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F583E188F2F4F129F0550BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "课程记录";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.piano.lessonrecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Debug;
+		};
+		ED98143FB6914D8DAB38F5D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "课程记录";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.piano.lessonrecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2436380E3F784106A5238522 /* project config list */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (CFA5E8325BF14B9BAE43D908, D3CF18D2AFE546B8B0C3C7DF);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE1791BE6914473C9B0C6108 /* target config list */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (0F583E188F2F4F129F0550BF, ED98143FB6914D8DAB38F5D5);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30FE4BB68C4D439A8E56DB27;
+}
