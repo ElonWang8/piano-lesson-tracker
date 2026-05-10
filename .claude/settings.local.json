@@ -52,7 +52,13 @@
       "Bash(git add *)",
       "Bash(git commit -m ' *)",
       "Bash(git commit *)",
-      "Bash(gh auth *)"
+      "Bash(gh auth *)",
+      "Read(//Users/elonwang/Downloads/课程记录-web/**)",
+      "Bash(npm init *)",
+      "Bash(npm install *)",
+      "Bash(npx playwright *)",
+      "Bash(node *)",
+      "Bash(curl -s https://piano.elonbot.eu.org/api/auth/login -X POST -H \"Content-Type: application/json\" -d '{\"password\":\"123456\"}')"
     ]
   }
 }
