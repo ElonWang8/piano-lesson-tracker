@@ -28,7 +28,31 @@
       "Bash(xcodebuild -project \"/Users/elonwang/Downloads/课程记录/课程记录.xcodeproj\" -list)",
       "Bash(sed -n '50,55p' /tmp/pbx_final.pbxproj)",
       "Bash(sed -n '98,103p' /tmp/pbx_final.pbxproj)",
-      "Bash(sed -n '376,382p' /tmp/pbx_final.pbxproj)"
+      "Bash(sed -n '376,382p' /tmp/pbx_final.pbxproj)",
+      "Bash(git commit -m 'Initial commit: 课程记录 - 钢琴老师课时管理App *)",
+      "Bash(curl -fsSL https://github.com/cli/cli/releases/download/v2.63.2/gh_2.63.2_macOS_amd64.zip -o /tmp/gh.zip)",
+      "Bash(unzip -o /tmp/gh.zip -d /tmp/gh_install)",
+      "Bash(chmod +x /tmp/gh_install/gh_*/bin/gh)",
+      "Bash(sudo cp /tmp/gh_install/gh_*/bin/gh /usr/local/bin/)",
+      "Bash(cp /tmp/gh_install/gh_*/bin/gh /usr/local/bin/)",
+      "Bash(/tmp/gh_install/gh_2.63.2_macOS_amd64/bin/gh auth *)",
+      "Bash(/tmp/gh_install/gh_2.63.2_macOS_amd64/bin/gh repo *)",
+      "Bash(git remote *)",
+      "Bash(git push *)",
+      "Bash(export GIT_ASKPASS=/tmp/git_askpass.sh)",
+      "Bash(cat)",
+      "Bash(chmod +x /tmp/git_askpass.sh)",
+      "Bash(export DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer)",
+      "Bash(curl -s http://localhost:8000/api/auth/login -X POST -H \"Content-Type: application/json\" -d '{\"password\":\"admin123\"}')",
+      "Bash(curl -s http://localhost:8000/api/auth/login -X POST -H \"Content-Type: application/json\" -d '{\"password\":\"wrong\"}')",
+      "Bash(pkill -f uvicorn)",
+      "Bash(curl -s http://localhost:8000/api/students)",
+      "Bash(docker --version)",
+      "Bash(git rm *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git commit *)",
+      "Bash(gh auth *)"
     ]
   }
 }
